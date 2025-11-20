@@ -1,0 +1,23 @@
+{
+  "AllowedHosts": "*",
+  "AppSettings": {
+    "Secret": "6RyvEfr9DSb6PnjW4qwyazDNCW3I2SBy7guNw4kgykyi5g5O7UuWaM84h58jh4Ie",
+    "JwtTokenTTL": 86400,
+    "RefreshTokenTTL": 86100,
+    "MainUrl": "http://example.com",
+    "BackendUrl": "http://example.com",
+    "LocalUrl": "http://localhost:5001",
+    "UseSwagger": true,
+    "EnableDBLogging": false
+  },
+  "ConnectionStrings": {
+    "CocDatabase": "server=localhost;user=root;password=;database=coc_db",
+    "TestDatabase": "server=localhost;user=root;password=;database=coc_db_test"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
