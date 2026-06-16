@@ -1,6 +1,4 @@
-### Pratinjau Teks Isi `README.md`:
 
-```markdown
 # Dokumen Konfigurasi SDK .NET
 
 Repositori ini dikunci untuk menggunakan versi SDK .NET spesifik demi menjaga konsistensi komersial dan kecocokan perakitan (*build*) di seluruh lingkungan pengembangan.
