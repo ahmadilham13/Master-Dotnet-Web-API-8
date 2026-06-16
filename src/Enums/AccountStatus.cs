@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Text.Json.Serialization;
 
-namespace Coc.Enums;
+namespace Api.Enums;
 
 [DefaultValue(Active)]
 [JsonConverter(typeof(JsonStringEnumConverter))]

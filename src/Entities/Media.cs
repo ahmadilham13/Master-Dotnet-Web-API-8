@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Coc.Entities;
+namespace Api.Entities;
 
 public class Media : BaseEntity
 {

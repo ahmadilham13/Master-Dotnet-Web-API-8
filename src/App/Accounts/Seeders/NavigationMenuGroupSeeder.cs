@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Coc.Entities;
+using Api.Entities;
 
-namespace Coc.Accounts.Seeders;
+namespace Api.Accounts.Seeders;
 
 public class NavigationMenuGroupSeeder(
     ModelBuilder modelBuilder

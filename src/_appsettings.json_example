@@ -11,8 +11,8 @@
     "EnableDBLogging": false
   },
   "ConnectionStrings": {
-    "CocDatabase": "server=localhost;user=root;password=;database=coc_db",
-    "TestDatabase": "server=localhost;user=root;password=;database=coc_db_test"
+    "ApiDatabase": "server=localhost;user=root;password=;database=api_db",
+    "TestDatabase": "server=localhost;user=root;password=;database=api_db_test"
   },
   "Logging": {
     "LogLevel": {

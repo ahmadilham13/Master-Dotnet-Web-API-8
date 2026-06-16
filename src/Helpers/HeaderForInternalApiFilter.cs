@@ -1,7 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Coc.Helpers;
+namespace Api.Helpers;
 
 public class HeaderForInternalApiFilter : IOperationFilter
 {

@@ -1,4 +1,4 @@
-namespace Coc.Constants;
+namespace Api.Constants;
 
 public static class SiteConstant
 {

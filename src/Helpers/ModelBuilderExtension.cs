@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace Coc.Helpers;
+namespace Api.Helpers;
 
 public static class ModelBuilderExtension
 {

@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Coc.Entities;
+namespace Api.Entities;
 
 public class BaseEntity : IBaseEntity, ISoftDelete
 {

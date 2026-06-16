@@ -1,10 +1,10 @@
-using Coc.Accounts.Seeders;
-using Coc.Configs;
-using Coc.Entities;
+using Api.Accounts.Seeders;
+using Api.Configs;
+using Api.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace Coc.Helpers;
+namespace Api.Helpers;
 
 public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
 {

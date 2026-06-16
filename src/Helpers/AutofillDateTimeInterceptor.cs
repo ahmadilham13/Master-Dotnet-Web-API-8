@@ -1,8 +1,8 @@
-using Coc.Entities;
+using Api.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace Coc.Helpers;
+namespace Api.Helpers;
 
 public class AutofillDateTimeInterceptor : SaveChangesInterceptor
 {

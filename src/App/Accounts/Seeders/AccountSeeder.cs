@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using Coc.Entities;
-using Coc.Enums;
-using Coc.Helpers;
+using Api.Entities;
+using Api.Enums;
+using Api.Helpers;
 
-namespace Coc.Accounts.Seeders;
+namespace Api.Accounts.Seeders;
 
 public class AccountSeeder(
     ModelBuilder modelBuilder

@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using Coc.Enums;
-using Coc.Helpers;
+using Api.Enums;
+using Api.Helpers;
 
-namespace Coc.Entities;
+namespace Api.Entities;
 
 public class Account : BaseEntity
 {

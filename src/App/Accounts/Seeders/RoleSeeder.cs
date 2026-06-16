@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Coc.Entities;
-using Coc.Helpers;
+using Api.Entities;
+using Api.Helpers;
 
-namespace Coc.Accounts.Seeders;
+namespace Api.Accounts.Seeders;
 
 public class RoleSeeder(
     ModelBuilder modelBuilder

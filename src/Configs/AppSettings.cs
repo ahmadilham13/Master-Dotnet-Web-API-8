@@ -1,4 +1,4 @@
-namespace Coc.Configs;
+namespace Api.Configs;
 
 public class AppSettings
 {

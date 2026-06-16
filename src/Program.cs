@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Reflection;
-using Coc.Configs;
-using Coc.Helpers;
+using Api.Configs;
+using Api.Helpers;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -61,7 +61,7 @@ options =>
 
 builder.Services.AddControllers();
 
-string dbConfig = builder.Configuration.GetConnectionString("CocDatabase");
+string dbConfig = builder.Configuration.GetConnectionString("ApiDatabase");
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
@@ -76,8 +76,8 @@ builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "COC Web API",
-        Description = ".NET Web API for COC App",
+        Title = "Api Web API",
+        Description = ".NET Web API for Api App",
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
         {
@@ -94,7 +94,7 @@ builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("internal-v1", new OpenApiInfo
     {
         Version = "internal-v1",
-        Title = "COC Internal API",
+        Title = "Api Internal API",
         Description = ".NET Internal API for Others App",
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
@@ -170,7 +170,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(x => {
-        x.SwaggerEndpoint("/swagger/v1/swagger.json", ".NET Web API for COC App");
+        x.SwaggerEndpoint("/swagger/v1/swagger.json", ".NET Web API for Api App");
         x.SwaggerEndpoint("/swagger/internal-v1/swagger.json", ".NET Internal API for Others App");
     });
 }

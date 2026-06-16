@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Coc.Entities;
-using Coc.Enums;
+using Api.Entities;
+using Api.Enums;
 
-namespace Coc.Accounts.Seeders;
+namespace Api.Accounts.Seeders;
 
 public class NavigationMenuSeeder(
     ModelBuilder modelBuilder

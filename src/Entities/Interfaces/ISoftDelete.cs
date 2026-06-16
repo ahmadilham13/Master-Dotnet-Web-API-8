@@ -1,4 +1,4 @@
-namespace Coc.Entities;
+namespace Api.Entities;
 
 public interface ISoftDelete
 {

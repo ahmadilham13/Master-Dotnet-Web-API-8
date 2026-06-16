@@ -4,11 +4,11 @@ using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using NetTopologySuite.IO;
-using Coc.Configs;
-using Coc.Enums;
-using Coc.Constants;
+using Api.Configs;
+using Api.Enums;
+using Api.Constants;
 
-namespace Coc.Helpers;
+namespace Api.Helpers;
 
 public static class SiteHelper
 {

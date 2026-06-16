@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Text.Json.Serialization;
 
-namespace Coc.Enums;
+namespace Api.Enums;
 
 [Flags]
 public enum PermissionMethod

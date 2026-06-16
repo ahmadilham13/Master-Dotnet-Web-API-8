@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using Coc.Enums;
+using Api.Enums;
 
-namespace Coc.Entities;
+namespace Api.Entities;
 
 public class NavigationMenu : BaseEntity
 {
